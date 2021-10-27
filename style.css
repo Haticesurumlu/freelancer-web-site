@@ -18,6 +18,12 @@ a{
     text-decoration: none;
 }
 
+.clearfix::after{
+    content:"";
+    display: block;
+    clear: both;
+}
+
 .container{
     width: 1140px;
     margin-left: auto;
@@ -38,9 +44,17 @@ nav{
     padding-bottom: 2.9rem;
 }
 
+#logo-box{
+    float:left;
+}
+}
+
 #logo-box .logo{
     color:#fff;
     font-weight: 700;
     font-size: 3.2rem;
 }
 
+#nav-links{
+    float:right;
+}
