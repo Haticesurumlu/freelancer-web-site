@@ -47,7 +47,7 @@ nav{
 #logo-box{
     float:left;
 }
-}
+
 
 #logo-box .logo{
     color:#fff;
@@ -57,4 +57,9 @@ nav{
 
 #nav-links{
     float:right;
+}
+
+#nav-links li{
+    float: left;
+    margin: .4rem;
 }
