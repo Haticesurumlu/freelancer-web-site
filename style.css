@@ -89,4 +89,6 @@ header{
     background-color:#FFAB80;
     height: 800px;
     padding-top: calc(112px + 10rem);
+    padding-bottom: 112px;
+    text-align: center;
 }
