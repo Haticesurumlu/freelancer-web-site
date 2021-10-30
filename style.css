@@ -41,10 +41,12 @@ ul{
 /*navbar*/
 nav{
     font-family: Montserrat;
-    background-color: #2C3E50;
+    background-color:#FE5942;
     color:#fff;
     padding-top: 2.4rem;
     padding-bottom: 2.4rem;
+    position: fixed;
+    width: 100%;
 }
 
 #logo-box{
@@ -80,4 +82,11 @@ nav{
 
 #nav-links .nav-link:hover{
     color:  #18bc9c;;
+}
+
+/* header */
+header{
+    background-color:#FFAB80;
+    height: 800px;
+    padding-top: calc(112px + 10rem);
 }
