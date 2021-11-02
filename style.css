@@ -55,6 +55,7 @@ nav{
     padding-bottom: 2.4rem;
     position: fixed;
     width: 100%;
+    z-index: 500;
 }
 
 #logo-box{
@@ -102,4 +103,35 @@ header{
 header h1{
     color: #2C3E50;
     font-size: 7.6rem;
+}
+
+header h2{
+    color:#2C3E50;
+    font-size: 2.8rem;
+    font-family: "Loto";
+    font-weight: 300;
+}
+.star-light{
+   border:none;
+   border-top: .4rem solid #2C3E50;
+   margin: 2.5rem auto;
+   max-width: 25rem;
+   overflow:visible;
+   height: 0;
+
+}
+ 
+.star-light::after{
+    content: "\f005"; 
+    font-family:"Font Awesome 5 Free";
+    color: #2C3E50;
+    font-weight: 900;
+    font-size: 3.2rem;
+    position: relative;
+    padding: 0 8px;
+    top: -26px;
+    background-color: #E9E9E9;
+
+    
+
 }
