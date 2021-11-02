@@ -111,17 +111,25 @@ header h2{
     font-family: "Loto";
     font-weight: 300;
 }
-.star-light{
+hr.star-dark{
+border-color: #fff; 
+}
+hr.star-light{
+border-color: #2C3E50;
+}
+.star-light,.star-dark{
    border:none;
-   border-top: .4rem solid #2C3E50;
+   border-top: .4rem solid ;
    margin: 2.5rem auto;
    max-width: 25rem;
    overflow:visible;
    height: 0;
 
 }
+
+
  
-.star-light::after{
+.star-light::after, .star-dark::after{
     content: "\f005"; 
     font-family:"Font Awesome 5 Free";
     color: #2C3E50;
@@ -130,8 +138,29 @@ header h2{
     position: relative;
     padding: 0 8px;
     top: -26px;
-    background-color: #E9E9E9;
-
-    
-
+   
 }
+
+.star-light::after{
+    background-color: #E9E9E9;
+    color: #2C3E50; ;
+}
+.star-dark::after{
+    background-color:#2C3E50;
+    color:#fff; 
+ }
+
+ /* Portfolio */
+
+ #portfolio{
+     height: 600px;
+     padding-top: 10rem;
+     padding-bottom: 10rem ;
+     text-align: center;
+     background-color:#2C3E50;
+ }
+
+#portfolio h2{
+  font-size: 4.8rem;
+  color: #fff;
+ }
