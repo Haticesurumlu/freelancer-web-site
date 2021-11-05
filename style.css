@@ -153,7 +153,7 @@ border-color: #2C3E50;
  /* Portfolio */
 
  #portfolio{
-     height: 600px;
+     height: 1000px;
      padding-top: 10rem;
      padding-bottom: 10rem ;
      text-align: center;
@@ -164,3 +164,44 @@ border-color: #2C3E50;
   font-size: 4.8rem;
   color: #fff;
  }
+
+ .col{
+     float: left;
+     width: 33.3333333%;
+     
+   
+     padding: 10px;
+ }
+
+ .portfolio-item{
+position: relative;
+ }
+
+ .portfolio-item img{
+     display: block;
+ }
+ .img-overlay{
+     position: absolute;
+     top: 0;
+     left: 0;
+     height: 100%;
+     width: 100%;
+     background-color:#E9E9E9;
+     opacity: 0;
+     transition: opacity .5s ease;
+ }
+
+ 
+.img-overlay .icon {
+	color: #fff;
+	font-size: 2rem;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+}
+
+
+.portfolio-item:hover .img-overlay {
+	opacity: 0.8;
+}
