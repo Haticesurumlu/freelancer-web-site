@@ -34,20 +34,39 @@ section{
 .btn{
     font-size: 2rem;
     font-weight: 400;
-    padding: 2.8rem 1.6rem;
+    
     display: inline-block;
     margin-top: 2rem;
-    background-color: transparent;
-    border:2px solid #fff;
-    color: #2C3E50;
+   
+    border:2px solid transparent;
+    
     border-radius: .4rem;
     cursor: pointer;
     transition: all .5s;
 }
+.btn-outline{
+    border-color: #fff;
+    background-color: transparent;
+    color: #2C3E50;
+    padding: 2.4rem 1.6rem;
+}
 
-.btn:hover{
+.btn-outline:hover{
     color: #1e2b38;
     background-color: #fff;
+
+}
+
+.btn-primary{
+    background-color: #1e2b38;
+    color: #fff;
+    padding: 1.2rem 1rem;
+}
+
+.btn-primary:hover{
+    background-color: #476380;
+    color: #fff;
+   
 
 }
 .img-fluid{
