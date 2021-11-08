@@ -220,3 +220,19 @@ position: relative;
     #about h2 {
         font-size: 4.8rem;
     }
+    about-text{
+        text-align: left;
+    }
+
+    #about-text .left{
+        float: left;
+        width: 50%;
+
+    }
+
+    #about-text .right{
+        float: right;
+        width: 50%;
+
+        
+    }
