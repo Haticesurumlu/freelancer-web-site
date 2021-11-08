@@ -25,6 +25,12 @@ a{
 ul{
     list-style-type: none;
 }
+
+section{
+    padding-top: 10rem;
+     padding-bottom: 10rem ;
+     text-align: center;
+}
 .img-fluid{
     max-width: 100%;
     height: auto;
@@ -49,7 +55,7 @@ ul{
 /*navbar*/
 nav{
     font-family: Montserrat;
-    background-color:#29636D;
+    background-color:#2C3E50;
     color:#fff;
     padding-top: 2.4rem;
     padding-bottom: 2.4rem;
@@ -111,10 +117,10 @@ header h2{
     font-family: "Loto";
     font-weight: 300;
 }
-hr.star-dark{
+hr.star-light{
 border-color: #fff; 
 }
-hr.star-light{
+hr.star-dark{
 border-color: #2C3E50;
 }
 .star-light,.star-dark{
@@ -142,21 +148,19 @@ border-color: #2C3E50;
 }
 
 .star-light::after{
-    background-color: #E9E9E9;
-    color: #2C3E50; ;
+   color: #E9E9E9;
+    background-color: #2C3E50; ;
 }
 .star-dark::after{
-    background-color:#2C3E50;
-    color:#fff; 
+   color:#2C3E50;
+    background-color:#E9E9E9; 
  }
 
  /* Portfolio */
 
  #portfolio{
-     height: 1000px;
-     padding-top: 10rem;
-     padding-bottom: 10rem ;
-     text-align: center;
+     
+    
      background-color:#2C3E50;
  }
 
@@ -205,3 +209,14 @@ position: relative;
 .portfolio-item:hover .img-overlay {
 	opacity: 0.8;
 }
+
+/* about */
+#about{
+    background-color:#E9E9E9;
+    color:#2C3E50;
+  
+    }
+
+    #about h2 {
+        font-size: 4.8rem;
+    }
