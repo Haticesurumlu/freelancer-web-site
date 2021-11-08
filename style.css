@@ -227,12 +227,16 @@ position: relative;
     #about-text .left{
         float: left;
         width: 50%;
+        padding-right: 2rem;
+        padding-left: 23rem;
 
     }
 
     #about-text .right{
         float: right;
         width: 50%;
+        padding-left: 2rem;
+        padding-right: 23rem;
 
         
     }
