@@ -240,3 +240,7 @@ position: relative;
 
         
     }
+
+    #about-text .text{
+        font-size: 2rem;
+    }
