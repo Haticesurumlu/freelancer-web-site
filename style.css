@@ -31,8 +31,17 @@ section{
      padding-bottom: 10rem ;
      text-align: center;
 }
-.btn{
+
+.btn-social{
+
+}
+
+.btn-large{
     font-size: 2rem;
+    padding: 2.2rem 1.6rem;
+}
+.btn{
+  
     font-weight: 400;
     
     display: inline-block;
@@ -48,7 +57,7 @@ section{
     border-color: #fff;
     background-color: transparent;
     color: #2C3E50;
-    padding: 2.4rem 1.6rem;
+    
 }
 
 .btn-outline:hover{
