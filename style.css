@@ -322,3 +322,12 @@ position: relative;
         text-align: left;
       
     }
+
+    footer{
+        padding-top: 6rem;
+        padding-bottom: 6rem;
+        background-color:#E9E9E9 ;
+        color:#2C3E50 ;
+        text-align: center;
+
+    }
