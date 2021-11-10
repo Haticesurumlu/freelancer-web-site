@@ -33,6 +33,11 @@ section{
 }
 
 .btn-social{
+    width: 5rem;
+    height: 5rem;
+    border-radius: 50%;
+    font-size: 2rem;
+    text-align: center;
 
 }
 
