@@ -362,3 +362,11 @@ position: relative;
         display: inline-block;
         margin-right: 1rem;
     }
+
+    .copyright{
+        background-color: #2C3E50;
+        padding-top: 2.4rem;
+        padding-bottom: 2.4rem;
+        color: #fff;
+        text-align: center;
+    }
