@@ -32,6 +32,22 @@ section{
      text-align: center;
 }
 
+
+.btn-large{
+    font-size: 2rem;
+    padding: 2.2rem 1.6rem;
+}
+
+.btn{
+  
+    font-weight: 400;
+     display: inline-block;
+    margin-top: 2rem;
+    border:2px solid transparent;
+    border-radius: .4rem;
+    cursor: pointer;
+    transition: all .5s;
+}
 .btn-social{
     width: 5rem;
     height: 5rem;
@@ -42,23 +58,8 @@ section{
 
 }
 
-.btn-large{
-    font-size: 2rem;
-    padding: 2.2rem 1.6rem;
-}
-.btn{
-  
-    font-weight: 400;
-    
-    display: inline-block;
-    margin-top: 2rem;
-   
-    border:2px solid transparent;
-    
-    border-radius: .4rem;
-    cursor: pointer;
-    transition: all .5s;
-}
+
+
 .btn-outline{
     border-color: #fff;
     background-color: transparent;
@@ -355,4 +356,9 @@ position: relative;
     footer p{
         font-size: 2rem;
         margin-top: 1rem;
+    }
+
+    footer li{
+        display: inline-block;
+        margin-right: 1rem;
     }
