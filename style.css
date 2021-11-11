@@ -78,6 +78,7 @@ section{
     color: #fff;
     padding: 1.2rem 1rem;
     text-align: left;
+    
 }
 
 .btn-primary:hover{
@@ -97,11 +98,40 @@ section{
 }
 
 .container{
-    width: 1140px;
+    width: 100%;
     margin-left: auto;
     margin-right: auto;
     padding-left: .5rem;
     padding-right: .5rem;
+}
+
+@media (min-width:576px){
+.container{
+    max-width: 540px;
+
+
+}
+}
+
+@media (min-width:768px){
+    .container{
+        max-width:720px;
+
+}
+}
+
+@media (min-width:992px){
+    .container{
+        max-width:960px;
+
+    } 
+}
+
+@media (min-width:1200px){
+    .container{
+        max-width:1140px;
+
+    } 
 }
 
 .text-uppercase{
