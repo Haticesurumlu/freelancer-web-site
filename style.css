@@ -123,6 +123,7 @@ html{
 @media (min-width:768px){
     .container{
         max-width:720px;
+    }
 
         html{
             font-size: 8px;
