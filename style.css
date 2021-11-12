@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 html{
-    font-size: 10px;
+    font-size: 6px;
 }
 body{
     font-family: 'Lato', sans-serif;
@@ -96,7 +96,11 @@ section{
     display: block;
     clear: both;
 }
-
+.col{
+    float: left;
+    width: 100%;
+    padding: 1rem;
+}
 .container{
     width: 100%;
     margin-left: auto;
@@ -111,20 +115,35 @@ section{
 
 
 }
+html{
+    font-size: 7px;
+}
 }
 
 @media (min-width:768px){
     .container{
         max-width:720px;
 
+        html{
+            font-size: 8px;
+        }
+        .col{
+            width: 50%;
+        }
 }
-}
+
 
 @media (min-width:992px){
     .container{
         max-width:960px;
 
     } 
+    html{
+        font-size: 9px;
+    }
+    .col{
+        width: 33.33333%;
+    }
 }
 
 @media (min-width:1200px){
@@ -132,6 +151,9 @@ section{
         max-width:1140px;
 
     } 
+    html{
+        font-size: 10px;
+    }
 }
 
 .text-uppercase{
@@ -254,13 +276,7 @@ border-color: #2C3E50;
   color: #fff;
  }
 
- .col{
-     float: left;
-     width: 33.3333333%;
-     
-   
-     padding: 10px;
- }
+
 
  .portfolio-item{
 position: relative;
