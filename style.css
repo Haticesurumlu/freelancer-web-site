@@ -207,6 +207,10 @@ nav{
     color:  #18bc9c;;
 }
 
+#nav-links .nav-icon{
+    display: none;
+}
+
 /* header */
 header{
     background-color:#E9E9E9;
