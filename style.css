@@ -211,6 +211,18 @@ nav{
     display: none;
 }
 
+@media (max-width:992px){
+    #logo-box{
+        float: none;
+        text-align: left;
+    }
+
+    #nav-links{
+        float: none;
+    }
+
+}
+
 /* header */
 header{
     background-color:#E9E9E9;
