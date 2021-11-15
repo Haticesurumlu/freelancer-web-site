@@ -188,6 +188,9 @@ nav{
     float:right;
 }
 
+#nav-links li:not(:first-child){
+    display: none;
+}
 #nav-links .nav-item{
     float: left;
     margin: .4rem;
