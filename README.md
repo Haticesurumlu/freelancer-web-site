@@ -1,5 +1,5 @@
 ### Freelancer Web Site
-Live Demo :https://haticesurumlu.github.io/freelancer-web-site/
+Demo :https://haticesurumlu.github.io/freelancer-web-site/
 
 
 ## Loom
